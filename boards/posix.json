@@ -1,10 +1,10 @@
 {
-  "name": "WizIO Arduino Simulator ( POSIX )",
+  "name": "Arduino Simulator for linux ( POSIX )",
   "url": "",
   "build": {
     "core": "posix",
     "mcu": "",    
-    "f_cpu": "100000000L",
+    "f_cpu": "1000000000L",
     "variant": "emu-posix"
   },
   "debug": {
@@ -18,9 +18,9 @@
     }
   },  
   "frameworks": ["arduino"],
-  "vendor": "WizIO",
+  "vendor": "OS-Q",
   "upload": {
-        "maximum_ram_size": 4000000,
-        "maximum_size":     4000000
+        "maximum_ram_size": 1024,
+        "maximum_size":     1024
   }
 }

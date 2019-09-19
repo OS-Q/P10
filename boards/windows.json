@@ -1,10 +1,10 @@
 {
-  "name": "WizIO Arduino Simulator ( WINDOWS )",
+  "name": "Arduino Simulator for WINDOWS",
   "url": "",
   "build": {
     "core": "windows",
     "mcu": "",    
-    "f_cpu": "100000000L",
+    "f_cpu": "1000000000L",
     "variant": "emu-windows"
   },
   "debug": {
@@ -18,9 +18,9 @@
     }
   },  
   "frameworks": ["arduino"],
-  "vendor": "WizIO",
+  "vendor": "OS-Q",
   "upload": {
-        "maximum_ram_size": 4000000,
-        "maximum_size":     4000000
+        "maximum_ram_size": 1024,
+        "maximum_size":     1024
   }
 }

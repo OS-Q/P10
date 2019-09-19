@@ -1,7 +1,3 @@
-# WizIO 2019 Georgi Angelov
-#   http://www.wizio.eu/
-#   https://github.com/Wiz-IO
-
 import os
 import subprocess
 from os.path import join

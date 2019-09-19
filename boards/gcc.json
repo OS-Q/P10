@@ -1,5 +1,5 @@
 {
-  "name": "GCC Project",
+  "name": "No Arduino Simulator with GCC",
   "url": "",
   "build": {},
   "debug": {
@@ -13,9 +13,9 @@
     }
   },  
   "frameworks": ["gcc"],
-  "vendor": "WizIO",
+  "vendor": "OS-Q",
   "upload": {
-    "maximum_ram_size": 10000000,
-    "maximum_size":     10000000
+    "maximum_ram_size": 1024,
+    "maximum_size":     1024
 }  
 }

@@ -1,9 +1,9 @@
 {
   "name": "H14",
   "title": "H14",
-  "description": "Arduino Simulator H14",
+  "description": "PC Simulator",
   "url": "https://github.com/OS-Q/H14",
-  "homepage": "http://www.wizio.eu/",
+  "homepage": "http://www.OS-Q.com/H14",
   "license": " ",
   "engines": {
     "platformio": "<5"
