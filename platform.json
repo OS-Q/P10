@@ -1,0 +1,36 @@
+{
+  "name": "H14",
+  "title": "H14",
+  "description": "Arduino Simulator H14",
+  "url": "https://github.com/OS-Q/H14",
+  "homepage": "http://www.wizio.eu/",
+  "license": " ",
+  "engines": {
+    "platformio": "<5"
+  },
+  "repository": {
+    "type": "",
+    "url": "https://github.com/OS-Q/H14.git"
+  },
+  "version": "1.0.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "frameworks": {
+      "arduino": {
+        "package": "framework-N31",
+        "script": "builder/frameworks/arduino.py"
+      },   
+      "gcc": {
+        "package": "framework-N31",
+        "script": "builder/frameworks/gcc.py"
+      }         
+  },
+  "packages": {
+    "framework-N31": {
+        "type": "framework",
+        "version": "https://github.com/OS-Q/N31.git"
+    }
+  }
+}
