@@ -41,7 +41,7 @@ def init_compiler(env):
 
 def dev_init(env, platform):    
     init_compiler(env)
-    framework_dir = env.PioPlatform().get_package_dir("framework-wizio")
+    framework_dir = env.PioPlatform().get_package_dir("framework-N31")
     PC = env.get("PLATFORM") # win32
     if PC.startswith("win"):
         core = "windows"    
