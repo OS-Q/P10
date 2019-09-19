@@ -1,5 +1,5 @@
 {
-  "name": "Arduino Simulator for linux ( POSIX )",
+  "name": "Arduino Simulator for POSIX",
   "url": "",
   "build": {
     "core": "posix",
@@ -20,7 +20,7 @@
   "frameworks": ["arduino"],
   "vendor": "OS-Q",
   "upload": {
-        "maximum_ram_size": 1024,
-        "maximum_size":     1024
+        "maximum_ram_size": 10240000,
+        "maximum_size":     10240000
   }
 }
