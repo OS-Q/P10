@@ -1,4 +1,4 @@
-﻿# [Platform H14](https://github.com/OS-Q/H14)
+﻿# [Platform H21](https://github.com/OS-Q/H21)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -6,9 +6,9 @@
 
 [EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
 
-### [Platform描述](https://github.com/OS-Q/H14/wiki) 
+### [Platform描述](https://github.com/OS-Q/H21/wiki) 
 
-[Platform H14](https://github.com/OS-Q/H14)基于PlatformIO开发平台
+[Platform H21](https://github.com/OS-Q/H21)基于PlatformIO平台,用于模拟设备
 
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H14)
+### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H21)
 ####  2019-9-12

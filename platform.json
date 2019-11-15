@@ -1,21 +1,25 @@
 {
-  "name": "H14",
-  "title": "H14",
-  "description": "PC Simulator",
-  "url": "https://github.com/OS-Q/H14",
-  "homepage": "http://www.OS-Q.com/H14",
+  "name": "H21",
+  "title": "H21",
+  "description": "PC环境模拟器",
+  "url": "https://github.com/OS-Q/H21",
+  "homepage": "http://www.OS-Q.com/H21",
   "license": " ",
   "engines": {
     "platformio": "<5"
   },
   "repository": {
     "type": "",
-    "url": "https://github.com/OS-Q/H14.git"
+    "url": "https://github.com/OS-Q/H21.git"
   },
   "version": "1.0.0",
   "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
+    "http://182.61.61.133/manifest/toolchain/manifest.json",
+    "http://182.61.61.133/manifest/framework/manifest.json",
+    "http://182.61.61.133/manifest/framework/freertos.json",
+    "http://182.61.61.133/manifest/framework/arduino.json",
+    "http://182.61.61.133/manifest/toolchain/openocd.json",
+    "http://182.61.61.133/manifest/manifest.json"
   ],
   "frameworks": {
       "arduino": {
