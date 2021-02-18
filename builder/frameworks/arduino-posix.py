@@ -30,11 +30,11 @@ def init_compiler(env):
 
 def dev_init(env, platform):
     init_compiler(env)
-    framework_dir = env.PioPlatform().get_package_dir("framework-wizio")
+    framework_dir = env.PioPlatform().get_package_dir("A10")
     variant = env.BoardConfig().get("build.variant")
     core = env.get("PLATFORM") # posix
     env.Append(
-       CPPDEFINES = [ # -D
+        CPPDEFINES = [ # -D
             "{}=200".format(platform.upper()),
             "CORE_" + core.upper().replace("-", "_"),
         ],

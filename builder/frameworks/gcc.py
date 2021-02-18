@@ -41,7 +41,7 @@ def dev_init(env, platform):
     create_main(env)
     init_compiler(env)
     env.Append(
-       CPPDEFINES = [],     # -D
+        CPPDEFINES = [],     # -D
         CPPPATH = [         # -I
             join("$PROJECT_DIR"),
             join("$PROJECT_DIR", "lib"),

@@ -4,7 +4,7 @@ from shutil import copyfile
 from SCons.Script import ARGUMENTS, DefaultEnvironment, Builder
 
 def run_application(target, source, env):
-    FILES_DIR = join(env.PioPlatform().get_package_dir("framework-wizio"), "arduino", "cores", env.BoardConfig().get("build.core"),"files")
+    FILES_DIR = join(env.PioPlatform().get_package_dir("A10"), "arduino", "cores", env.BoardConfig().get("build.core"),"files")
     BUILD_DIR = env.get("BUILD_DIR")
 
     #### copy dll-s if not exist
@@ -41,7 +41,7 @@ def init_compiler(env):
 
 def dev_init(env, platform):
     init_compiler(env)
-    framework_dir = env.PioPlatform().get_package_dir("framework-wizio")
+    framework_dir = env.PioPlatform().get_package_dir("A10")
     PC = env.get("PLATFORM") # win32
     if PC.startswith("win"):
         core = "windows"
