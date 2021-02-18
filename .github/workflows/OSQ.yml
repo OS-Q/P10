@@ -10,7 +10,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.7]
         example:
-          - "examples/wizio_hello_world"
+          - "examples/wizio_windows_oled_doom"
 
     runs-on: ${{ matrix.os }}
     steps:
