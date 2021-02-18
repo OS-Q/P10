@@ -1,18 +1,18 @@
 {
-  "name": "H21",
-  "title": "H21",
+  "name": "P10",
+  "title": "Platform P10",
   "description": "arduino模拟器",
-  "url": "https://github.com/OS-Q/H21",
-  "homepage": "http://www.OS-Q.com/H21",
+  "url": "https://github.com/OS-Q/P10",
+  "homepage": "http://www.OS-Q.com/P10",
   "license": " ",
+  "version": "1.0.0",
   "engines": {
-    "platformio": "<5"
+    "platformio": "^5"
   },
   "repository": {
     "type": "",
-    "url": "https://github.com/OS-Q/H21.git"
+    "url": "https://github.com/OS-Q/P10.git"
   },
-  "version": "1.0.0",
   "packageRepositories": [
     "http://182.61.61.133/manifest/toolchain/manifest.json",
     "http://182.61.61.133/manifest/framework/manifest.json",
@@ -25,11 +25,11 @@
       "arduino": {
         "package": "framework-N31",
         "script": "builder/frameworks/arduino.py"
-      },   
+      },
       "gcc": {
         "package": "framework-N31",
         "script": "builder/frameworks/gcc.py"
-      }         
+      }
   },
   "packages": {
     "framework-N31": {
