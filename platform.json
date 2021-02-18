@@ -1,40 +1,36 @@
 {
   "name": "P10",
   "title": "Platform P10",
-  "description": "arduino模拟器",
-  "url": "https://github.com/OS-Q/P10",
-  "homepage": "http://www.OS-Q.com/P10",
-  "license": " ",
-  "version": "1.0.0",
+  "description": "Arduino Simulator 2019 Georgi Angelov",
+  "url": "https://github.com/Wiz-IO/platform-wizio",
+  "homepage": "http://www.wizio.eu/",
+  "license": "Apache-2.0",
   "engines": {
     "platformio": "^5"
   },
   "repository": {
     "type": "",
-    "url": "https://github.com/OS-Q/P10.git"
+    "url": "https://github.com/Wiz-IO/platform-wizio.git"
   },
+  "version": "1.0.3",
   "packageRepositories": [
-    "http://182.61.61.133/manifest/toolchain/manifest.json",
-    "http://182.61.61.133/manifest/framework/manifest.json",
-    "http://182.61.61.133/manifest/framework/freertos.json",
-    "http://182.61.61.133/manifest/framework/arduino.json",
-    "http://182.61.61.133/manifest/toolchain/openocd.json",
-    "http://182.61.61.133/manifest/manifest.json"
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
   ],
   "frameworks": {
       "arduino": {
-        "package": "framework-N31",
+        "package": "framework-wizio",
         "script": "builder/frameworks/arduino.py"
       },
       "gcc": {
-        "package": "framework-N31",
+        "package": "framework-wizio",
         "script": "builder/frameworks/gcc.py"
       }
   },
   "packages": {
-    "framework-N31": {
+    "framework-wizio": {
         "type": "framework",
-        "version": "https://github.com/OS-Q/N31.git"
+        "version": "https://github.com/Wiz-IO/framework-wizio.git"
     }
   }
 }

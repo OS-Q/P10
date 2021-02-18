@@ -1,5 +1,5 @@
 {
-  "name": "No Arduino with GCC",
+  "name": "GCC Project",
   "url": "",
   "build": {},
   "debug": {
@@ -11,11 +11,11 @@
         "server":       {}
       }
     }
-  },  
+  },
   "frameworks": ["gcc"],
   "vendor": "OS-Q",
   "upload": {
-    "maximum_ram_size": 10240000,
-    "maximum_size":     10240000
-}  
+    "maximum_ram_size": 10000000,
+    "maximum_size":     10000000
+}
 }

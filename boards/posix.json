@@ -1,10 +1,10 @@
 {
-  "name": "Arduino Simulator for POSIX",
+  "name": "OS-Q Arduino Simulator ( POSIX )",
   "url": "",
   "build": {
     "core": "posix",
-    "mcu": "",    
-    "f_cpu": "1000000000L",
+    "mcu": "",
+    "f_cpu": "100000000L",
     "variant": "emu-posix"
   },
   "debug": {
@@ -16,11 +16,11 @@
         "server":       {}
       }
     }
-  },  
+  },
   "frameworks": ["arduino"],
   "vendor": "OS-Q",
   "upload": {
-        "maximum_ram_size": 10240000,
-        "maximum_size":     10240000
+        "maximum_ram_size": 4000000,
+        "maximum_size":     4000000
   }
 }
